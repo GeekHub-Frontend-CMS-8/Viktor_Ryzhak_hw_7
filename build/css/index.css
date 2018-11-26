@@ -2,24 +2,23 @@ body {
   font-family: Montserrat, sans-serif; }
 
 .header__background {
-  background-color: #fff; }
+  background-color: #fff;
+  overflow: hidden; }
 
-.header__logo {
-  display: flex;
-  align-items: center; }
-  .header__logo-icon {
-    background: url("../img/Shape_1.png") no-repeat;
-    width: 43px;
-    height: 41px; }
-    @media screen and (min-width: 768px) {
-      .header__logo-icon {
-        opacity: 1; } }
-  .header__logo-text {
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    margin-left: 18px;
-    font-size: 24px;
-    font-weight: 400; }
+.header__logo-icon {
+  background: url("../img/Shape_1.png") no-repeat;
+  width: 43px;
+  height: 41px; }
+  @media screen and (min-width: 768px) {
+    .header__logo-icon {
+      opacity: 1; } }
+
+.header__logo-text {
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  margin-left: 18px;
+  font-size: 24px;
+  font-weight: 400; }
 
 .header__button {
   padding: 0; }
@@ -27,11 +26,63 @@ body {
 .header__nav {
   padding: 0; }
 
-.fork-app__background {
-  background: url("../img/img.jpg") no-repeat; }
+.fork-app {
+  text-transform: uppercase; }
+  .fork-app__background {
+    background: url("../img/img.jpg") center/cover no-repeat;
+    position: relative; }
+  .fork-app__title {
+    padding-top: 88px;
+    color: #ffffff;
+    font-size: 82px;
+    font-weight: 700; }
+  .fork-app__text {
+    padding-top: 22px;
+    padding-bottom: 19px;
+    color: #8d81ac;
+    font-size: 24px;
+    font-weight: 400; }
+  .fork-app__subtext {
+    color: #848e97;
+    font-size: 16px;
+    font-weight: 400; }
+  .fork-app__button {
+    padding: 22px 67px;
+    background-color: #8d81ac;
+    position: relative;
+    bottom: -60px; }
+    .fork-app__button-text {
+      color: #ffffff;
+      font-size: 21px;
+      font-weight: 700; }
+    .fork-app__button-info {
+      color: #848e97;
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+      bottom: -80px; }
+
+.revolutionary__title {
+  margin-top: 129px;
+  margin-bottom: 54px;
+  color: #635c73;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.revolutionary__text {
+  opacity: 0.8;
+  color: #323232;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 400; }
 
 .testimonials__background {
-  background: url("../img/Layer_1.png") no-repeat; }
+  background: url("../img/Layer_1.png") center no-repeat;
+  background-size: cover;
+  position: relative; }
 
 .pricing__background {
-  background: url("../img/Layer_2.png") no-repeat; }
+  background: url("../img/Layer_2.png") center no-repeat;
+  background-size: cover;
+  position: relative; }

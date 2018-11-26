@@ -14,9 +14,9 @@
 
 <header class="header__background">
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="justify-content-center">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="header__logo">
+                <div class="header__logo d-flex align-items-center">
                     <div class="header__logo-icon"></div>
                     <span class="header__logo-text">
                         ForkIO
@@ -35,20 +35,20 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Overview<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Overview</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Fork</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Buying</a>
+                            <a class="nav-link" href="#">Buying Options</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Options</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Support</a>
+                            <a class="nav-link" href="#">Support</a>
                         </li>
                     </ul>
                 </div>
@@ -60,26 +60,28 @@
 <section class="fork-app__background">
     <div class="container text-center">
         <div>
-            <h1>
+            <h1 class="fork-app__title">
                 Fork App
             </h1>
-            <p>
+            <p class="fork-app__text">
                 A Real Gamechanger In The World Of Web-Development
             </p>
             <div>
-                <span>
+                <span class="fork-app__subtext">
                     v. 2.8 For Mac and Windows
                 </span>
             </div>
         </div>
         <div>
             <div>
-                <button>
-                    Download For Free Now
+                <button class="fork-app__button">
+                    <span class="d-inline-block fork-app__button-text">
+                        Download For Free Now
+                    </span>
                 </button>
             </div>
             <div>
-                <span>
+                <span class="fork-app__button-info">
                     Unlimited 30-Days Trial Period
                 </span>
             </div>
@@ -90,15 +92,15 @@
 <section class="revolutionary__background">
     <div class="container text-center">
         <div>
-            <h1>
+            <h1 class="revolutionary__title">
                 Revolutionary editor
             </h1>
-            <p>
+            <p class="revolutionary__text">
                 Aenean cursus imperdiet nisl id fermentum.
                 Aliquam pharetra dui laoreet vulputate dignissim.
                 Sed id metus id quam auctor molestie eget ut augue.
             </p>
-            <div>
+            <div  class="revolutionary__buttons">
                 <img src="img/github_buttons.jpg" height="26" width="365"/>
             </div>
         </div>
@@ -395,7 +397,7 @@
 <section class="subscription__background">
     <div class="container text-center">
         <div class="row justify-content-between">
-            <h2 class="text-center">Subscribe To Stay In Touch</h2>
+            <h3 class="text-center">Subscribe To Stay In Touch</h3>
             <form class="form-inline text-center justify-content-center">
                 <div class="form-group">
                     <label for="exampleFormControlInput1">
@@ -411,13 +413,219 @@
 
 <section class="links__background">
     <div class="container text-center">
+        <div class="links__type">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                        New in Release 2.8
+                    </h3>
+                    <div>
+                        <h4>
+                            Fully Available: Live Preview Support for Multiple Browsers
+                        </h4>
+                        <p>
+                            Morbi faucibus ante ipsum, a tincidunt libero posuere et.
+                            Etiam tempor tortor at odio condimentum, sit amet fringilla
+                            ligula maximus. Mauris venenatis nisl nisi, et dictum dui
+                            aliquet nec. Sed erat, nec aliquam vel, aliquam ac felis.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Improved Support for Typing
+                        </h4>
+                        <p>
+                            Nulla purus quam, pulvinar sed ante et, feugiat maximus velit.
+                            Donec eu elit mauris.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Improved Stability
+                        </h4>
+                        <p>
+                            Proin id ligula eget massa tincidunt molestie. Morbi urna lectus,
+                            molestie vel quam vel, iaculis fermentum nunc. Morbi imperdiet,
+                            leo in interdum pretium.
+                        </p>
+                    </div>
+                    <button>Go to Release Log</button>
+                </div>
 
+                <div class="col-md-4">
+                    <h3>
+                        Popular Extensions
+                    </h3>
+                    <div>
+                        <h4>
+                            Custom Themes 1.1
+                        </h4>
+                        <p>
+                            Etiam viverra vulputate diam, pulvinar cursus augue egestas ullamcorper.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Filter Forge
+                        </h4>
+                        <p>
+                            Nulla purus quam, pulvinar sed et, feugiat maximus velit.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            WebZap
+                        </h4>
+                        <p>
+                            Morbi imperdiet, leo in interdum pretium, elit eros dapibus
+                            velit, eu posuere quam diam vitae orci. Suspendisse interdum
+                            accumsan magna vitae commodo.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Renamy
+                        </h4>
+                        <p>
+                            Vivamus consectetur suscipit elit, ut lacinia diam elementum et.
+                        </p>
+                    </div>
+                    <button>Go to Marketplace</button>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>
+                        New From the Blog
+                    </h3>
+                    <div>
+                        <h4>
+                            Morbi imperdiet, leo in interdum pretium.
+                        </h4>
+                        <p>
+                            February 18, 2015
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Donec orci ante, porta vel nulla quis, aliquet hendrerit leo.
+                        </h4>
+                        <p>
+                            February 12, 2015
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Suspendisse egestas vulputate luctus.
+                        </h4>
+                        <p>
+                            February 6, 2015
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Quisque varius ante lorem, eget pretium purus hendrerit a egestas.
+                        </h4>
+                        <p>
+                            February 2, 2015
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            Phasellus in augue risus.
+                        </h4>
+                        <p>
+                            January 23, 2015
+                        </p>
+                    </div>
+                    <button>Go to Blog</button>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="footer__background">
     <div class="container text-center">
+        <div class="links__type">
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                       LOGO TOP
+                    </div>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, feugiat
+                            delicat liberavisse id cum no quo.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>
+                        Navigation
+                    </h4>
+                    <div>
+                        <div>
+                            <a>
+                                Home
+                            </a>
+                        </div>
 
+                        <div>
+                            <a>
+                                Overview
+                            </a>
+                        </div>
+
+                        <div>
+                            <a>
+                                About
+                            </a>
+                        </div>
+
+                        <div>
+                            <a>
+                                Buying Options
+                            </a>
+                        </div>
+
+                        <div>
+                            <a>
+                                Support
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <h4>
+                            347 567 78 90
+                        </h4>
+                        <p>
+                            AVAILABLE FROM 12PM - 18PM
+                        </p>
+                    </div>
+                    <div>
+                        <h4>
+                            New York, NY
+                        </h4>
+                        <p>
+                            560 Judah St & 15th Ave, Apt 5
+                            San Francisco, CA, 230903
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>
+                        Info
+                    </h4>
+                    <p>
+                        Wisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex commodo
+                        consequat. Autem vel hendrerit iriure dolor in hendrerit.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
