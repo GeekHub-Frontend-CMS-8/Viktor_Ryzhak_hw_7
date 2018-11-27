@@ -26,41 +26,48 @@ body {
 .header__nav {
   padding: 0; }
 
-.fork-app {
-  text-transform: uppercase; }
-  .fork-app__background {
-    background: url("../img/img.jpg") center/cover no-repeat;
-    position: relative; }
-  .fork-app__title {
-    padding-top: 88px;
+.fork-app__background {
+  background: url("../img/img.jpg") center/cover no-repeat;
+  position: relative; }
+
+.fork-app__title {
+  padding-top: 88px;
+  color: #ffffff;
+  font-size: 82px;
+  font-weight: 700; }
+
+.fork-app__text {
+  padding-top: 22px;
+  padding-bottom: 19px;
+  color: #8d81ac;
+  font-size: 24px;
+  font-weight: 400; }
+
+.fork-app__subtext {
+  color: #848e97;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 472px; }
+
+.fork-app__button {
+  padding: 22px 67px;
+  background-color: #8d81ac;
+  position: relative;
+  bottom: -60px; }
+  .fork-app__button-text {
     color: #ffffff;
-    font-size: 82px;
+    font-size: 21px;
     font-weight: 700; }
-  .fork-app__text {
-    padding-top: 22px;
-    padding-bottom: 19px;
-    color: #8d81ac;
-    font-size: 24px;
-    font-weight: 400; }
-  .fork-app__subtext {
+  .fork-app__button-info {
     color: #848e97;
-    font-size: 16px;
-    font-weight: 400; }
-  .fork-app__button {
-    padding: 22px 67px;
-    background-color: #8d81ac;
+    font-size: 14px;
+    font-weight: 400;
     position: relative;
-    bottom: -60px; }
-    .fork-app__button-text {
-      color: #ffffff;
-      font-size: 21px;
-      font-weight: 700; }
-    .fork-app__button-info {
-      color: #848e97;
-      font-size: 14px;
-      font-weight: 400;
-      position: relative;
-      bottom: -80px; }
+    bottom: -80px; }
+
+.revolutionary__background {
+  background-color: #fff; }
 
 .revolutionary__title {
   margin-top: 129px;
@@ -73,9 +80,45 @@ body {
 .revolutionary__text {
   opacity: 0.8;
   color: #323232;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro" sans-serif;
   font-size: 16px;
   font-weight: 400; }
+
+.revolutionary__buttons {
+  margin-top: 38px;
+  margin-bottom: 60px; }
+
+.benefits__background {
+  background-color: #f4f4f4; }
+
+.benefits__title {
+  color: #8d81ac;
+  font-family: Montserrat, sans-serif;
+  font-size: 48px;
+  font-weight: 700; }
+
+.benefits__icon-1 {
+  background: url("../img/icon-1.png") no-repeat;
+  width: 111px;
+  height: 64px; }
+
+.benefits__icon-2 {
+  background: url("../img/icon-2.png") no-repeat;
+  width: 90px;
+  height: 80px; }
+
+.benefits__icon-3 {
+  background: url("../img/icon-3.png") no-repeat;
+  width: 60px;
+  height: 84px; }
+
+.benefits__icon-4 {
+  background: url("../img/icon-4.png") no-repeat;
+  width: 71px;
+  height: 71px; }
+
+.benefits__img {
+  overflow: hidden; }
 
 .testimonials__background {
   background: url("../img/Layer_1.png") center no-repeat;
