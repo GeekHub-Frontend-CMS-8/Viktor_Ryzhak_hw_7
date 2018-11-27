@@ -91,6 +91,9 @@ body {
 .benefits__background {
   background-color: #f4f4f4; }
 
+.benefits__type {
+  margin-bottom: 46px; }
+
 .benefits__title {
   color: #8d81ac;
   font-family: Montserrat, sans-serif;
@@ -98,27 +101,40 @@ body {
   font-weight: 700; }
 
 .benefits__icon-1 {
-  background: url("../img/icon-1.png") no-repeat;
+  background: url("../img/icon-1.png") center no-repeat;
   width: 111px;
   height: 64px; }
 
 .benefits__icon-2 {
-  background: url("../img/icon-2.png") no-repeat;
+  background: url("../img/icon-2.png") center no-repeat;
   width: 90px;
   height: 80px; }
 
 .benefits__icon-3 {
-  background: url("../img/icon-3.png") no-repeat;
+  background: url("../img/icon-3.png") center no-repeat;
   width: 60px;
   height: 84px; }
 
 .benefits__icon-4 {
-  background: url("../img/icon-4.png") no-repeat;
+  background: url("../img/icon-4.png") center no-repeat;
   width: 71px;
   height: 71px; }
 
 .benefits__img {
   overflow: hidden; }
+
+.benefits__subtitle {
+  margin-bottom: 16px;
+  color: #323232;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600; }
+
+.benefits__text {
+  color: #848e97;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
 
 .testimonials__background {
   background: url("../img/Layer_1.png") center no-repeat;
