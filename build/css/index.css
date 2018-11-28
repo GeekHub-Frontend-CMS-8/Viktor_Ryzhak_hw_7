@@ -95,7 +95,6 @@ body {
 
 .benefits__title {
   color: #8d81ac;
-  font-family: Montserrat, sans-serif;
   font-size: 48px;
   font-weight: 700; }
 
@@ -125,15 +124,12 @@ body {
 .benefits__subtitle {
   margin-bottom: 16px;
   color: #323232;
-  font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: 600; }
 
 .benefits__text {
   color: #848e97;
-  font-family: Montserrat, sans-serif;
-  font-size: 14px;
-  font-weight: 400; }
+  font-size: 14px; }
 
 .social {
   margin-top: 87px;
@@ -193,8 +189,80 @@ body {
   font-weight: 700; }
 
 .pricing {
-  padding-top: 79px; }
+  padding-top: 79px;
+  padding-bottom: 77px; }
   .pricing__background {
     background: url("../img/Layer_2.png") center no-repeat;
     background-size: cover;
     position: relative; }
+  .pricing__bg-type-top {
+    background-color: #ffffff;
+    opacity: 0.06; }
+  .pricing__bg-type-bottom {
+    background-color: #ffffff;
+    opacity: 0.11; }
+  .pricing__money {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .pricing__button {
+    border-radius: 30px;
+    background-color: #ffffff;
+    opacity: 0.15; }
+    .pricing__button-text {
+      color: #fff;
+      font-size: 15px;
+      text-transform: uppercase; }
+  .pricing__subtext {
+    padding-top: 133px;
+    opacity: 0.8;
+    color: #a291a5;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 14px; }
+
+.subscription {
+  padding-top: 46px;
+  padding-bottom: 46px; }
+  .subscription__background {
+    background-color: #f4f4f4; }
+  .subscription__button {
+    background-color: #8d81ac;
+    border-radius: 20px; }
+    .subscription__button-text {
+      color: #fff;
+      font-size: 13px; }
+  .subscription__title {
+    color: #635c73;
+    font-size: 30px;
+    font-weight: 700; }
+
+.links {
+  padding-top: 79px;
+  padding-bottom: 70px; }
+  .links__title {
+    padding-bottom: 58px;
+    text-align: left;
+    color: #d3d1da;
+    font-size: 28px;
+    font-weight: 700; }
+  .links__subtitle {
+    text-align: left;
+    color: #323232;
+    font-size: 16px; }
+    .links__subtitle-other {
+      text-align: left;
+      color: #8d81ac;
+      font-size: 16px; }
+  .links__text {
+    padding-top: 14px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #848e97;
+    font-size: 13px; }
+  .links__button {
+    padding: 10px 24px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #8d81ac;
+    font-size: 14px; }
