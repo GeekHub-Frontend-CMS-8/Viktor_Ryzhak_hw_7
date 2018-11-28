@@ -141,7 +141,7 @@ body {
     opacity: 0.5; }
   .social__carousel-button-left {
     background: url("../img/Arrow_L.png") no-repeat; }
-  .social__corousel-inner {
+  .social__carousel-inner {
     position: relative;
     width: 80%;
     overflow: hidden;
@@ -265,4 +265,13 @@ body {
     border: none;
     background-color: #f4f4f4;
     color: #8d81ac;
+    font-size: 14px; }
+
+.footer {
+  padding-top: 79px;
+  padding-bottom: 100px; }
+  .footer__logo-subtext {
+    text-align: left;
+    padding-top: 24px;
+    color: #848e97;
     font-size: 14px; }
