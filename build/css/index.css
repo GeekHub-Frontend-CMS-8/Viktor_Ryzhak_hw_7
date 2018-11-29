@@ -2,30 +2,38 @@ body {
   font-family: Montserrat, sans-serif;
   font-weight: 400; }
 
+.background-all {
+  background-color: #4b3b4e; }
+
+.button {
+  background-color: #8d81ac;
+  border-radius: 20px;
+  color: #fff; }
+  .button-large {
+    font-size: 17px;
+    font-weight: 700; }
+  .button-small {
+    font-size: 13px; }
+
 .header__background {
   background-color: #fff;
   overflow: hidden; }
 
-.header__logo-icon {
-  background: url("../img/Shape_1.png") no-repeat;
-  width: 43px;
-  height: 41px; }
-  @media screen and (min-width: 768px) {
-    .header__logo-icon {
-      opacity: 1; } }
+.header__logo {
+  text-decoration: none; }
+  .header__logo-icon {
+    background: url("../img/Shape_1.png") no-repeat;
+    width: 43px;
+    height: 41px; }
+  .header__logo-text {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    margin-left: 18px;
+    font-size: 24px;
+    font-weight: 400; }
 
-.header__logo-text {
-  font-family: Montserrat, sans-serif;
-  text-transform: uppercase;
-  margin-left: 18px;
-  font-size: 24px;
-  font-weight: 400; }
-
-.header__button {
-  padding: 0; }
-
-.header__nav {
-  padding: 0; }
+.header__nav-mobile {
+  background-color: #333333; }
 
 .fork-app__background {
   background: url("../img/img.jpg") center/cover no-repeat;
@@ -87,49 +95,43 @@ body {
   margin-top: 38px;
   margin-bottom: 60px; }
 
-.benefits__background {
-  background-color: #f4f4f4; }
-
-.benefits__type {
-  margin-bottom: 46px; }
-
-.benefits__title {
-  color: #8d81ac;
-  font-size: 48px;
-  font-weight: 700; }
-
-.benefits__icon-1 {
-  background: url("../img/icon-1.png") center no-repeat;
-  width: 111px;
-  height: 64px; }
-
-.benefits__icon-2 {
-  background: url("../img/icon-2.png") center no-repeat;
-  width: 90px;
-  height: 80px; }
-
-.benefits__icon-3 {
-  background: url("../img/icon-3.png") center no-repeat;
-  width: 60px;
-  height: 84px; }
-
-.benefits__icon-4 {
-  background: url("../img/icon-4.png") center no-repeat;
-  width: 71px;
-  height: 71px; }
-
-.benefits__img {
-  overflow: hidden; }
-
-.benefits__subtitle {
-  margin-bottom: 16px;
-  color: #323232;
-  font-size: 16px;
-  font-weight: 600; }
-
-.benefits__text {
-  color: #848e97;
-  font-size: 14px; }
+.benefits {
+  padding-top: 49px; }
+  .benefits__background {
+    background-color: #f4f4f4; }
+  .benefits__type {
+    margin-bottom: 46px; }
+  .benefits__title {
+    margin-bottom: 61px;
+    color: #8d81ac;
+    font-size: 48px;
+    font-weight: 700; }
+  .benefits__icon-1 {
+    background: url("../img/icon-1.png") center no-repeat;
+    width: 111px;
+    height: 64px; }
+  .benefits__icon-2 {
+    background: url("../img/icon-2.png") center no-repeat;
+    width: 90px;
+    height: 80px; }
+  .benefits__icon-3 {
+    background: url("../img/icon-3.png") center no-repeat;
+    width: 60px;
+    height: 84px; }
+  .benefits__icon-4 {
+    background: url("../img/icon-4.png") center no-repeat;
+    width: 71px;
+    height: 71px; }
+  .benefits__img {
+    overflow: hidden; }
+  .benefits__subtitle {
+    margin-bottom: 16px;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 600; }
+  .benefits__text {
+    color: #848e97;
+    font-size: 14px; }
 
 .social {
   margin-top: 87px;
@@ -195,25 +197,56 @@ body {
     background: url("../img/Layer_2.png") center no-repeat;
     background-size: cover;
     position: relative; }
-  .pricing__bg-type-top {
-    background-color: #ffffff;
-    opacity: 0.06; }
-  .pricing__bg-type-bottom {
-    background-color: #ffffff;
-    opacity: 0.11; }
+  .pricing__type-bg-top {
+    background-color: rgba(255, 255, 255, 0.06); }
+  .pricing__type-bg-bottom {
+    background-color: rgba(255, 255, 255, 0.11);
+    padding-bottom: 38px; }
+  .pricing__title {
+    padding: 35px 63px 45px 63px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase; }
   .pricing__money {
+    padding-top: 36px;
     color: #fff;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase; }
+  .pricing__month {
+    margin-top: 46px;
+    margin-bottom: 38px;
+    opacity: 0.3;
+    color: #d4d4d4;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .pricing__license {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-top: 31px;
+    margin-bottom: 57px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600; }
+    .pricing__license:before {
+      content: "";
+      background-color: #8d81ac; }
+  .pricing__border {
+    margin: 0 auto;
+    width: 60px;
+    height: 5px;
+    background-color: #8d81ac; }
   .pricing__button {
     border-radius: 30px;
-    background-color: #ffffff;
-    opacity: 0.15; }
+    background-color: rgba(255, 255, 255, 0.15); }
     .pricing__button-text {
       color: #fff;
       font-size: 15px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-weight: 600; }
   .pricing__subtext {
     padding-top: 133px;
     opacity: 0.8;
@@ -226,12 +259,6 @@ body {
   padding-bottom: 46px; }
   .subscription__background {
     background-color: #f4f4f4; }
-  .subscription__button {
-    background-color: #8d81ac;
-    border-radius: 20px; }
-    .subscription__button-text {
-      color: #fff;
-      font-size: 13px; }
   .subscription__title {
     color: #635c73;
     font-size: 30px;
@@ -271,7 +298,32 @@ body {
   padding-top: 79px;
   padding-bottom: 100px; }
   .footer__logo-subtext {
-    text-align: left;
     padding-top: 24px;
+    color: #848e97;
+    font-size: 14px; }
+  .footer__nav-title {
+    color: #323232;
+    font-size: 16px; }
+  .footer__nav-subtitle {
+    color: #8d81ac;
+    font-size: 15px; }
+  .footer__contacts-title {
+    color: #3f3f3f;
+    font-size: 30px; }
+    .footer__contacts-title-text {
+      color: #848e97;
+      font-size: 12px;
+      text-transform: uppercase; }
+  .footer__contacts-subtitle {
+    color: #323232;
+    font-size: 16px; }
+    .footer__contacts-subtitle-text {
+      color: #848e97;
+      font-size: 14px; }
+  .footer__info-title {
+    color: #323232;
+    font-size: 16px; }
+  .footer__info-text {
+    text-align: justify;
     color: #848e97;
     font-size: 14px; }
