@@ -41,7 +41,7 @@ a:hover {
     .header__follow-icon:hover {
       color: #8d81ac; }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header-navigation {
     background-color: #333333; }
     .header-navigation .navbar-nav {
