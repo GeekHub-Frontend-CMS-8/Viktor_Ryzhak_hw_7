@@ -15,39 +15,62 @@
 <header class="header__background">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
-            <div class="header__logo d-flex align-items-center">
+            <a href="/" class="header__logo d-flex align-items-center">
                 <div class="header__logo-icon"></div>
                 <span class="header__logo-text">
                     ForkIO
                 </span>
-            </div>
+            </a>
 
-            <div class="collapse navbar-collapse nav  justify-content-start justify-content-lg-end" id="navbarTogglerDemo02">
+            <a class="btn-lg button button-large d-lg-none" href="/">
+                Buy Now
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse nav  justify-content-start justify-content-lg-end header-navigation" id="navbarTogglerDemo02">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Overview</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Fork</a>
+                        <a class="nav-link" href="/">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Buying Options</a>
+                        <a class="nav-link" href="/">About Fork</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link" href="/">Buying Options</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Support</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" href="/">Follow Us</a>
+
+                        <div class="header__follow">
+                            <a href="https://www.github.com" class="col-1 header__follow-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+
+                            <a href="https://www.twitter.com" class="col-1 header__follow-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com" class="col-1 header__follow-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
 
-            <a class="btn-lg button button-large" href="#">
+            <a class="btn-lg button button-large d-none d-lg-block" href="/">
                 Buy Now
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
         </nav>
     </div>
 </header>
@@ -69,7 +92,7 @@
         </div>
         <div>
             <div>
-                <button class="fork-app__button">
+                <button class="btn-lg button button-large fork-app__button">
                     <span class="d-inline-block fork-app__button-text">
                         Download For Free Now
                     </span>
@@ -360,7 +383,7 @@
                         <span class="pricing__license d-block">
                             Personal License
                         </span>
-                        <a href="#" class="btn-lg pricing__button">
+                        <a href="/" class="btn-lg pricing__button">
                             <div class="btn d-block-inline pricing__button-text">
                                 purchase
                             </div>
@@ -380,7 +403,7 @@
                         <span class="pricing__license d-block">
                             Professional License Email Support
                         </span>
-                        <a href="#" class="btn-lg pricing__button">
+                        <a href="/" class="btn-lg pricing__button">
                             <div class="btn d-block-inline pricing__button-text">
                                 purchase
                             </div>
@@ -400,7 +423,7 @@
                         <span class="pricing__license d-block">
                             1-12 Team Members Phone Support
                         </span>
-                        <a href="#" class="btn-lg pricing__button">
+                        <a href="/" class="btn-lg pricing__button">
                             <div class="btn d-block-inline pricing__button-text">
                                 purchase
                             </div>
@@ -420,7 +443,7 @@
                         <span class="pricing__license d-block">
                             Unlimited Team Members 24/ 7 Phone Support
                         </span>
-                        <a href="#" class="btn-lg pricing__button">
+                        <a href="/" class="btn-lg pricing__button">
                             <div class="btn d-block-inline pricing__button-text">
                                 purchase
                             </div>
